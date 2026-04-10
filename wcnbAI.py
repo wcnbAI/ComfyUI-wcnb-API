@@ -2843,13 +2843,13 @@ class soraPromptToVideo:
 
 # 注册节点
 NODE_CLASS_MAPPINGS = {
-    "wcnb-api": GeminiImageGenerator,
+    "Google-Gemini": GeminiImageGenerator,
     "Gemini-Image-To-Prompt": GeminiImageToPrompt,
     "sora-Prompt-To-video": soraPromptToVideo
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
-    "wcnb-api": "wcnb-api",
+    "Google-Gemini": "双子座3.0图像",
     "Gemini-Image-To-Prompt": "双子座图片提示",
     "sora-Prompt-To-Video": "sora提示转视频"
 } 
