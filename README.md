@@ -76,7 +76,7 @@ wcnb基于nanobanana制作ComfyUI文生图和图生文插件。
 
 ## 联系客服
 
-![微信扫码咨询客服](assets/wechat_qr.png)
+<img src="assets/wechat_qr.png" alt="微信扫码咨询客服" width="50%" />
 
 ## 温度参数说明
 
