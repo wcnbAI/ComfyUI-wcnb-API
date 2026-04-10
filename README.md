@@ -11,7 +11,7 @@ wcnb基于nanobanana制作ComfyUI文生图和图生文插件。
 1. 将此存储库克隆到ComfyUI的`custom_nodes`目录：
    ```
    cd ComfyUI/custom_nodes
-   git clone https://github.com/CY-CHENYUE/ComfyUI-wcnb-API
+   git clone https://github.com/WcnbAi/ComfyUI-wcnb-API
    ```
 
 2. 安装所需依赖：
@@ -38,9 +38,7 @@ wcnb基于nanobanana制作ComfyUI文生图和图生文插件。
 
 ### wcnb image
 
-![alt text](workflow/Gemini-API.png)
-
-![alt text](workflow/Gemini-API-多图.png)
+示例工作流文件位于 `workflow` 目录，可直接在 ComfyUI 中加载体验。
 
 通过 wcnb API 生成图像的节点。
 
@@ -91,10 +89,3 @@ wcnb基于nanobanana制作ComfyUI文生图和图生文插件。
 - 首次使用时需要输入 API 密钥，之后会自动存储在节点目录中的 `wcnb_api_key.txt` 文件中
 - 关于图像方向，wcnb API 会根据选择的方向（横屏、竖屏或方形）生成适合的图像（但模型不一定完全按要求生成）
 
-## Contact Me
-
-- X (Twitter): [@cychenyue](https://x.com/cychenyue)
-- TikTok: [@cychenyue](https://www.tiktok.com/@cychenyue)
-- YouTube: [@CY-CHENYUE](https://www.youtube.com/@CY-CHENYUE)
-- BiliBili: [@CY-CHENYUE](https://space.bilibili.com/402808950)
-- 小红书: [@CY-CHENYUE](https://www.xiaohongshu.com/user/profile/6360e61f000000001f01bda0)
